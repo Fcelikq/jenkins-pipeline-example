@@ -7,6 +7,11 @@ pipeline{
         jdk 'jdk_11.0.6'
     }
     stages {
+       stage ('Compile') {
+                      steps {
+                          bat 'mvn clean compile'
+                      }
+              }
       stage ('Build') {
                   steps {
                       bat 'mvn test'
