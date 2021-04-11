@@ -5,10 +5,10 @@
     <test name="Web Test1">
         <classes>
             <!--tum testler icin asagidaki komut calistirilmalidir.-->
-            <class name="tests.ExampleTest">
+            <class name="tests.TestExample">
                 <!--istenilen test aşağı doğru istenen sırayla asagidaki sekilde calistirilabilir.  -->
                  <methods>
-                       <include name="TestExample"/>
+                       <include name="test1"/>
                       </methods>
 
             </class>
